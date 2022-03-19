@@ -1,0 +1,61 @@
+10.0.0.0/24 - 256
+
+256 subnets - each subnet reserves 5 ip's for azure - 1280 
+
+10.0.0.0/24 - 256 - 251
+
+10.0.0.0 - network number
+10.0.0.1 - default gateway
+10.0.0.2 - dns server1
+10.0.0.3 - dns server2
+10.0.0.255 - broadcast
+
+10.0.0.4 - first ip
+
+
+10.0.1.0/24 - 256
+10.0.1.0 - network number
+10.0.1.1 - default gateway
+10.0.1.2 - dns server1
+10.0.1.3 - dns server2
+10.0.1.255 - broadcast
+
+10.0.1.4 - first ip
+
+
+10.0.2.0/24 - 256
+10.0.2.4 - first ip
+
+10.0.255.0/24 - 256
+
+
+
+We have two machines 
+1 Public Machine
+1 Private Machine
+
+Source - Destination 
+Ip - Ip
+
+When a communication gets established... 
+
+It will be converted into packets 1MB , 1k - 1000 packets
+
+source ip
+destination ip
+sequence number 
+acknowledgement number
+
++ 
+
+original data
+
+
+
+NAT - Network Address Translation 
+
+
+Class A - 10.0.0.0 - 
+Class B - 172.36.0.0
+Class C - 192.
+
